@@ -1,0 +1,94 @@
+
+.nav-wrapper{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 20px 0px rgb(255, 255, 255);
+}
+  
+.nav-wrapper a {
+  color: black;
+}
+
+a.brand-logo{
+  font-family: 'Podkova', serif;
+  position: relative;
+  float: left;
+}
+
+.infos-header{
+  position: relative;
+  float: left;
+  top: -22%;
+  left: 15%;
+}
+
+a.infos-left{
+  font-family: 'Podkova', serif;
+  position: relative;
+  float: left;
+  margin-left: 50px;
+}
+
+a.infos-left i{
+  position: relative;
+  float: left;
+}
+
+.background{
+    background-color: black;
+}
+
+.background-menu{
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.collapsible-body{
+  font-size: 12px;
+}
+
+.card{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-login a{
+  background-color: black;
+}
+.btn-login a:hover{
+  background-color:black;
+  border-radius: 15px;
+}
+
+.infoHeader{
+  width: 75%;
+  height: 30px;
+  top: 10px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.075);
+  box-shadow: 1px 3px 10px 0.1px rgba(0, 0, 0, 0.363);
+  border: 2px rgba(0, 0, 0, 0.363);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: -2.5%
+}
+
+.infoHeader i{
+  position: relative;
+  top:4px;
+}
+
+.infoHeader p{
+  position: relative;
+  float: left;
+  margin: 10px 0px 0px 12%;
+  top: -10px;
+}
+
+@media only screen and (max-width: 600px){
+  .infos-header{
+    display: none;
+  } 
+}
